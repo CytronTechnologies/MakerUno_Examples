@@ -34,7 +34,7 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#include <MsTimer2.h>
+#include "MsTimer2.h"
 
 unsigned long MsTimer2::msecs;
 void (*MsTimer2::func)();
